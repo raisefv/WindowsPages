@@ -7,19 +7,37 @@
         mc:Ignorable="d"
         Title="Администратор" Height="450" Width="800"
         Closing="Window_Closing">
-    <Grid Margin="10">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
-        
-        <Image Source="../Images/BankIcon.jpg" 
-               Width="50" Height="50" 
-               HorizontalAlignment="Left" 
-               VerticalAlignment="Top" 
-               Grid.Row="0"/>
-        
-        <TextBlock Text="Информация для администраторов банка" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Button Content="Назад" Width="100" Grid.Row="1" HorizontalAlignment="Center" Click="BackButton_Click"/>
-    </Grid>
+        <Grid Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                
+                <Image Source="../Images/BankIcon.jpg" 
+                       Width="50" 
+                       Height="50" 
+                       Grid.Column="0" 
+                       HorizontalAlignment="Left" 
+                       VerticalAlignment="Center"/>
+                
+                <TextBlock Text="Информация для администраторов банка" 
+                           Grid.Column="1" 
+                           HorizontalAlignment="Center" 
+                           VerticalAlignment="Center"/>
+                
+                <Button Content="Назад" 
+                        Width="100" 
+                        Grid.Column="2" 
+                        HorizontalAlignment="Right" 
+                        VerticalAlignment="Center" 
+                        Click="BackButton_Click"/>
+            </Grid>
+        </Grid>
 </Window>
