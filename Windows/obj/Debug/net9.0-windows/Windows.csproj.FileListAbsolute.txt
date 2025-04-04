@@ -10,7 +10,6 @@ C:\dev\cs\Windows\Windows\obj\Debug\net9.0-windows\Views\ClientWindow.g.cs
 C:\dev\cs\Windows\Windows\obj\Debug\net9.0-windows\Views\EmployeeWindow.g.cs
 C:\dev\cs\Windows\Windows\obj\Debug\net9.0-windows\App.g.cs
 C:\dev\cs\Windows\Windows\obj\Debug\net9.0-windows\Windows_MarkupCompile.cache
-C:\dev\cs\Windows\Windows\obj\Debug\net9.0-windows\Windows_MarkupCompile.lref
 C:\dev\cs\Windows\Windows\obj\Debug\net9.0-windows\MainWindow.baml
 C:\dev\cs\Windows\Windows\obj\Debug\net9.0-windows\Views\AdminWindow.baml
 C:\dev\cs\Windows\Windows\obj\Debug\net9.0-windows\Views\AuthWindow.baml

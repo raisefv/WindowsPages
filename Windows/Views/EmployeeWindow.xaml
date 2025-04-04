@@ -3,7 +3,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:local="clr-namespace:Windows.Views"
         mc:Ignorable="d"
         Title="Сотрудник" Height="450" Width="800"
         Closing="Window_Closing">
@@ -32,12 +31,12 @@
                        HorizontalAlignment="Center" 
                        VerticalAlignment="Center"/>
                 
-            <Button Content="Назад" 
+            <Button Content="Выход" 
                     Width="100" 
                     Grid.Column="2" 
                     HorizontalAlignment="Right" 
                     VerticalAlignment="Center" 
-                    Click="BackButton_Click"/>
+                    Click="CloseButton_Click"/>
         </Grid>
     </Grid>
 </Window>

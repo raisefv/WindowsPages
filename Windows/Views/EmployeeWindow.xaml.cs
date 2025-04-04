@@ -9,7 +9,7 @@ public partial class EmployeeWindow : Window
         InitializeComponent();
     }
     
-    private void BackButton_Click(object sender, RoutedEventArgs e)
+    private void CloseButton_Click(object sender, RoutedEventArgs e)
     {
         Close();
     }
