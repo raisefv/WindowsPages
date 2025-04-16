@@ -11,7 +11,6 @@ public partial class AuthWindow : Window
         InitializeComponent();
         _targetWindow = targetWindow;
     }
-
     
     string _AdminUsername = "admin";
     string _AdminPassword = "admin";
